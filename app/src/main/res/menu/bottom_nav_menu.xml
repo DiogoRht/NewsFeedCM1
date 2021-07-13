@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_general"
+        android:icon="@drawable/ic_general"
+        android:title="@string/title_general" />
+
+    <item
+        android:id="@+id/navigation_sports"
+        android:icon="@drawable/ic_sports"
+        android:title="@string/title_sports" />
+    <item
+        android:id="@+id/navigation_economy"
+        android:icon="@drawable/ic_economy"
+        android:title="@string/title_economy" />
+    <item
+        android:id="@+id/navigation_science"
+        android:icon="@drawable/ic_science"
+        android:title="@string/title_science" />
+
+    <item
+        android:id="@+id/navigation_saved_news"
+        android:icon="@drawable/ic_save"
+        android:title="@string/title_saved_news" />
+
+</menu>

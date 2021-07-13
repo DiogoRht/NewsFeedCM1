@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewsFeedCM1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_sports">Sports</string>
+    <string name="title_general">General</string>
+    <string name="title_science">Science</string>
+    <string name="title_economy">Economy</string>
+    <string name="title_saved_news">Saved News</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_general">
+
+    <fragment
+        android:id="@+id/navigation_sports"
+        android:name="com.example.newsfeedcm1.ui.SportsNewsFragment"
+        android:label="@string/title_sports"
+        tools:layout="@layout/fragment_sports_news" />
+
+    <fragment
+        android:id="@+id/navigation_general"
+        android:name="com.example.newsfeedcm1.ui.GeneralNewsFragment"
+        android:label="@string/title_general"
+        tools:layout="@layout/fragment_general_news" />
+
+    <fragment
+        android:id="@+id/navigation_economy"
+        android:name="com.example.newsfeedcm1.ui.EconomyNewsFragment"
+        android:label="@string/title_economy"
+        tools:layout="@layout/fragment_economy_news" />
+
+    <fragment
+        android:id="@+id/navigation_science"
+        android:name="com.example.newsfeedcm1.ui.ScienceNewsFragment"
+        android:label="@string/title_science"
+        tools:layout="@layout/fragment_science_news" />
+
+    <fragment
+        android:id="@+id/navigation_saved_news"
+        android:name="com.example.newsfeedcm1.ui.CachedNewsFragment"
+        android:label="@string/title_saved_news"
+        tools:layout="@layout/fragment_cached_news" />
+</navigation>
